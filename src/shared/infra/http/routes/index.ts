@@ -1,7 +1,7 @@
 import { Router } from 'express';
 
 import translateRouter from '../../../../modules/translate/infra/http/routes/translate.routes';
-import languagesRouter from '../../../../modules/translate/infra/http/routes/languages.routes';
+import languagesRouter from '../../../../modules/languages/infra/http/routes/languages.routes';
 
 const routes = Router();
 

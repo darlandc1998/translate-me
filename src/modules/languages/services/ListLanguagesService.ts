@@ -1,5 +1,5 @@
-import ILanguageDTO from '../dtos/ILanguageDTO';
-import { Languages } from '../enums/LanguagesEnum';
+import ILanguageDTO from '../../languages/dtos/ILanguageDTO';
+import { Languages } from '../../languages/enums/LanguagesEnum';
 
 class ListLanguagesService {
   public async execute(): Promise<ILanguageDTO[]> {
