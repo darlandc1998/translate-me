@@ -1,0 +1,9 @@
+root = true #O arquivo de configurações .editorConfig pode ser criado em qualquer local do projeto, logo o plugin irá aplicar as configurações aos arquivos de mesmo nível e níveis inferiores. Quando utilizamos root = true estamos orientando o plugin a não considerar outros eventuais arquivos de configuração;
+
+[*] #Indica que as definições daquele grupo serão aplicadas para todos os arquivos do nível atual e inferiores;
+indent_style = space #Define que a indentação será formada de espaços e não por um caracter de tabulação (tab), uma convenção universalmente adotada por desenvolvedores;
+indent_size = 2 #Define que a indentação será composta por 2 espaços;
+end_of_line = lf
+charset = utf-8 #Define o charset default dos arquivos como utf-8;
+trim_trailing_whitespace = true #Informa se o editor deve ou não apagar espaços em branco no final de cada linha. Pessoalmente recomendo que altere para true;
+insert_final_newline = true #Informa se o editor deve ou não inserir uma linha em branco ao final de cada arquivo. Pessoalmente recomendo que altere para true.
